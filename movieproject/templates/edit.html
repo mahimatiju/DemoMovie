@@ -1,0 +1,6 @@
+<form style="align:center" method="post" enctype="multipart/form-data">
+  <h4>Update Details</h4>
+  {% csrf_token %}
+  {{form.as_p}}
+  <input type="submit">
+</form>
